@@ -1,7 +1,7 @@
 import "./css/Portfolio.css"
 import Grid from '@mui/material/Grid';
 import Avatar from '@mui/material/Avatar';
-import profile from '../assets/profile.png'
+import profile from '../assets/foto.png'
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import VerticalTabs from "../components/Tabs";
 import Inicio from "./Inicio";

@@ -1,6 +1,6 @@
 import "./css/inicio.css"
 import Grid from '@mui/material/Grid';
-import profileContainer from '../assets/profile-container.png'
+import profileContainer from '../assets/sinFondo.png'
 import {
     BsGithub,
     BsLinkedin,
