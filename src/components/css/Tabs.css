@@ -1,0 +1,17 @@
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tab{
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1100px) {
+    .categories{
+        margin-top: 20px;
+    }
+    .tab{
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,13 @@
+.container-experiencia{
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+    width: 100%;
+}
+.container-experiencia.show {
+    opacity: 1;
+}
+
+.titulo-experiencia{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

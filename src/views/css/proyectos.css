@@ -1,0 +1,16 @@
+.container-inicio{
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.container-inicio.show {
+    opacity: 1;
+}
+
+@media (max-width: 1100px) {
+    .container-inicio {
+        display: block;
+    }
+}

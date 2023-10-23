@@ -1,0 +1,33 @@
+.container-competencias{
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+    width: 100%;
+}
+.container-competencias.show {
+    opacity: 1;
+}
+.titulo-experiencia{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box-competencias{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    transition: 0.3s;
+}
+.box-competencias:hover{
+    scale: 1.2;
+    color: #ff014f;
+}
+.icon{
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 70px;
+}
+
+.divider{
+    margin-top: 30px;
+}

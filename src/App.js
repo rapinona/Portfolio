@@ -1,9 +1,18 @@
-import './App.css';
 import Portfolio from './views/Portfolio';
+import { ThemeProvider } from '@mui/material/styles';
+import Theme from './theme'
+import { Provider } from "react-redux";
+import ConfigureStore from "./store/index";
+
+let store = ConfigureStore();
 
 function App() {
   return (
-    <Portfolio></Portfolio>
+    <Provider store={store}>
+      <ThemeProvider theme={Theme}>
+        <Portfolio></Portfolio>
+      </ThemeProvider>
+    </Provider>
   );
 }
 
